@@ -59,7 +59,7 @@
         
 		//set the column view contents and add it as subview
         [columnView setCTFrame:(__bridge id)frame];  //6
-        //[self attachImagesWithFrame:frame inColumnView: content];
+        [self attachImagesWithFrame:frame inColumnView:columnView];
         [self.frames addObject:(__bridge id)frame];
         [self addSubview:columnView];
         
