@@ -16,6 +16,16 @@
 		DF3BA21A178581DE000C5D05 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3BA219178581DE000C5D05 /* Default.png */; };
 		DF3BA21C178581DE000C5D05 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3BA21B178581DE000C5D05 /* Default@2x.png */; };
 		DF3BA21E178581DE000C5D05 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3BA21D178581DE000C5D05 /* Default-568h@2x.png */; };
+		DF3BA225178581F2000C5D05 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3BA224178581F2000C5D05 /* CoreText.framework */; };
+		DF3BA22817858204000C5D05 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3BA22717858204000C5D05 /* MainViewController.m */; };
+		DF797ABF1785962D00393C35 /* CTColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF797AB91785962D00393C35 /* CTColumnView.m */; };
+		DF797AC01785962D00393C35 /* CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF797ABB1785962D00393C35 /* CTView.m */; };
+		DF797AC11785962D00393C35 /* MarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DF797ABD1785962D00393C35 /* MarkupParser.m */; };
+		DF797AC21785962D00393C35 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = DF797ABE1785962D00393C35 /* test.txt */; };
+		DF797AC71785964A00393C35 /* zombie1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF797AC31785964A00393C35 /* zombie1.jpg */; };
+		DF797AC81785964A00393C35 /* zombie2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF797AC41785964A00393C35 /* zombie2.jpg */; };
+		DF797AC91785964A00393C35 /* zombie3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF797AC51785964A00393C35 /* zombie3.jpg */; };
+		DF797ACA1785964A00393C35 /* zombies.txt in Resources */ = {isa = PBXBuildFile; fileRef = DF797AC61785964A00393C35 /* zombies.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +37,25 @@
 		DF3BA211178581DE000C5D05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF3BA213178581DE000C5D05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF3BA215178581DE000C5D05 /* CTDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTDemo-Prefix.pch"; sourceTree = "<group>"; };
-		DF3BA216178581DE000C5D05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DF3BA217178581DE000C5D05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF3BA216178581DE000C5D05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CTDemo/AppDelegate.h; sourceTree = "<group>"; };
+		DF3BA217178581DE000C5D05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CTDemo/AppDelegate.m; sourceTree = "<group>"; };
 		DF3BA219178581DE000C5D05 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DF3BA21B178581DE000C5D05 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DF3BA21D178581DE000C5D05 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DF3BA224178581F2000C5D05 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DF3BA22617858204000C5D05 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DF3BA22717858204000C5D05 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		DF797AB81785962D00393C35 /* CTColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTColumnView.h; sourceTree = "<group>"; };
+		DF797AB91785962D00393C35 /* CTColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTColumnView.m; sourceTree = "<group>"; };
+		DF797ABA1785962D00393C35 /* CTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTView.h; sourceTree = "<group>"; };
+		DF797ABB1785962D00393C35 /* CTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTView.m; sourceTree = "<group>"; };
+		DF797ABC1785962D00393C35 /* MarkupParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkupParser.h; sourceTree = "<group>"; };
+		DF797ABD1785962D00393C35 /* MarkupParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkupParser.m; sourceTree = "<group>"; };
+		DF797ABE1785962D00393C35 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		DF797AC31785964A00393C35 /* zombie1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zombie1.jpg; sourceTree = "<group>"; };
+		DF797AC41785964A00393C35 /* zombie2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zombie2.jpg; sourceTree = "<group>"; };
+		DF797AC51785964A00393C35 /* zombie3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zombie3.jpg; sourceTree = "<group>"; };
+		DF797AC61785964A00393C35 /* zombies.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zombies.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3BA225178581F2000C5D05 /* CoreText.framework in Frameworks */,
 				DF3BA208178581DE000C5D05 /* UIKit.framework in Frameworks */,
 				DF3BA20A178581DE000C5D05 /* Foundation.framework in Frameworks */,
 				DF3BA20C178581DE000C5D05 /* CoreGraphics.framework in Frameworks */,
@@ -51,9 +76,12 @@
 		DF3BA1FB178581DE000C5D05 = {
 			isa = PBXGroup;
 			children = (
+				DF3BA216178581DE000C5D05 /* AppDelegate.h */,
+				DF3BA217178581DE000C5D05 /* AppDelegate.m */,
 				DF3BA20D178581DE000C5D05 /* CTDemo */,
 				DF3BA206178581DE000C5D05 /* Frameworks */,
 				DF3BA205178581DE000C5D05 /* Products */,
+				DF3BA20E178581DE000C5D05 /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,9 +96,10 @@
 		DF3BA206178581DE000C5D05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DF3BA207178581DE000C5D05 /* UIKit.framework */,
-				DF3BA209178581DE000C5D05 /* Foundation.framework */,
 				DF3BA20B178581DE000C5D05 /* CoreGraphics.framework */,
+				DF3BA224178581F2000C5D05 /* CoreText.framework */,
+				DF3BA209178581DE000C5D05 /* Foundation.framework */,
+				DF3BA207178581DE000C5D05 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,9 +107,14 @@
 		DF3BA20D178581DE000C5D05 /* CTDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DF3BA216178581DE000C5D05 /* AppDelegate.h */,
-				DF3BA217178581DE000C5D05 /* AppDelegate.m */,
-				DF3BA20E178581DE000C5D05 /* Supporting Files */,
+				DF797AB81785962D00393C35 /* CTColumnView.h */,
+				DF797AB91785962D00393C35 /* CTColumnView.m */,
+				DF797ABA1785962D00393C35 /* CTView.h */,
+				DF797ABB1785962D00393C35 /* CTView.m */,
+				DF3BA22617858204000C5D05 /* MainViewController.h */,
+				DF3BA22717858204000C5D05 /* MainViewController.m */,
+				DF797ABC1785962D00393C35 /* MarkupParser.h */,
+				DF797ABD1785962D00393C35 /* MarkupParser.m */,
 			);
 			path = CTDemo;
 			sourceTree = "<group>";
@@ -88,15 +122,21 @@
 		DF3BA20E178581DE000C5D05 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DF3BA20F178581DE000C5D05 /* CTDemo-Info.plist */,
-				DF3BA210178581DE000C5D05 /* InfoPlist.strings */,
+				DF797AC31785964A00393C35 /* zombie1.jpg */,
+				DF797AC41785964A00393C35 /* zombie2.jpg */,
+				DF797AC51785964A00393C35 /* zombie3.jpg */,
 				DF3BA213178581DE000C5D05 /* main.m */,
 				DF3BA215178581DE000C5D05 /* CTDemo-Prefix.pch */,
+				DF3BA20F178581DE000C5D05 /* CTDemo-Info.plist */,
+				DF3BA21D178581DE000C5D05 /* Default-568h@2x.png */,
 				DF3BA219178581DE000C5D05 /* Default.png */,
 				DF3BA21B178581DE000C5D05 /* Default@2x.png */,
-				DF3BA21D178581DE000C5D05 /* Default-568h@2x.png */,
+				DF797ABE1785962D00393C35 /* test.txt */,
+				DF797AC61785964A00393C35 /* zombies.txt */,
+				DF3BA210178581DE000C5D05 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			path = CTDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +194,11 @@
 				DF3BA21A178581DE000C5D05 /* Default.png in Resources */,
 				DF3BA21C178581DE000C5D05 /* Default@2x.png in Resources */,
 				DF3BA21E178581DE000C5D05 /* Default-568h@2x.png in Resources */,
+				DF797AC21785962D00393C35 /* test.txt in Resources */,
+				DF797AC71785964A00393C35 /* zombie1.jpg in Resources */,
+				DF797AC81785964A00393C35 /* zombie2.jpg in Resources */,
+				DF797AC91785964A00393C35 /* zombie3.jpg in Resources */,
+				DF797ACA1785964A00393C35 /* zombies.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +211,10 @@
 			files = (
 				DF3BA214178581DE000C5D05 /* main.m in Sources */,
 				DF3BA218178581DE000C5D05 /* AppDelegate.m in Sources */,
+				DF3BA22817858204000C5D05 /* MainViewController.m in Sources */,
+				DF797ABF1785962D00393C35 /* CTColumnView.m in Sources */,
+				DF797AC01785962D00393C35 /* CTView.m in Sources */,
+				DF797AC11785962D00393C35 /* MarkupParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +293,7 @@
 		DF3BA222178581DE000C5D05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CTDemo/CTDemo-Prefix.pch";
 				INFOPLIST_FILE = "CTDemo/CTDemo-Info.plist";
@@ -255,6 +305,7 @@
 		DF3BA223178581DE000C5D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CTDemo/CTDemo-Prefix.pch";
 				INFOPLIST_FILE = "CTDemo/CTDemo-Info.plist";
@@ -282,6 +333,7 @@
 				DF3BA223178581DE000C5D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
